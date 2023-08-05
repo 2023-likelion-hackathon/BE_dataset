@@ -53,5 +53,5 @@ if __name__ == '__main__':
     header = ['word','meaning','url']
     df = pd.DataFrame(items)
 
-    output_file = "coined_word.xlsx"
+    output_file = "dataset/coined_word.xlsx"
     df.to_excel(output_file,index=False,header=header)
